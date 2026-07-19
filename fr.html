@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdou CISSE | Portfolio en Photonique & Réseaux Optiques</title>
+    <meta name="description" content="Portfolio d'Abdou CISSE, étudiant en Master 2 Réseaux optiques et systèmes photoniques.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Canvas -->
+    <canvas id="particles-bg"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#home" class="logo">A.C<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#research">Expériences & Projets</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="index.html" class="lang-switch"><i class="fa-solid fa-globe"></i> EN</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h2 class="subtitle">Étudiant en M2 Réseaux Optiques & Systèmes Photoniques</h2>
+            <h1 class="title">L'innovation par la <span>Photonique</span> et les <span>Télécoms</span></h1>
+            <p class="description">Spécialisé dans les systèmes de communication optiques, la modélisation et l'automatisation. Je combine une double compétence en physique appliquée et en informatique.</p>
+            <div class="cta-group">
+                <a href="#research" class="btn btn-primary">Voir mes expériences</a>
+                <a href="#contact" class="btn btn-secondary">Me contacter</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <p>Défiler vers le bas</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">À <span>propos</span> de moi</h2>
+            <div class="about-grid glass-panel">
+                <div class="about-text">
+                    <h3>De la physique fondamentale à l'ingénierie optique</h3>
+                    <p>Actuellement en Master 2 Réseaux Optiques et Systèmes Photoniques (Université Paris Saclay & Telecom Paris), mon parcours est jalonné par une passion pour la transmission d'information par la lumière et la modélisation de phénomènes physiques.</p>
+                    <p>Fort de 5 années d'expérience en Python et de solides bases en télécommunications, je m'épanouis dans la conception de systèmes, la simulation numérique et l'automatisation d'expériences scientifiques.</p>
+                    <ul class="highlights">
+                        <li><i class="fa-solid fa-graduation-cap"></i> M2 Réseaux Optiques et Systèmes Photoniques (Paris Saclay / Telecom Paris)</li>
+                        <li><i class="fa-solid fa-microscope"></i> Ingénierie Photonique & Modélisation (Université de Lorraine / Centrale Supelec)</li>
+                        <li><i class="fa-solid fa-code"></i> Double compétence Informatique & Physique Fondamentale</li>
+                    </ul>
+                </div>
+                <div class="about-visual">
+                    <div class="abstract-shape">
+                        <div class="orbital-ring"></div>
+                        <div class="orbital-ring"></div>
+                        <div class="orbital-ring"></div>
+                        <div class="core"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research & Projects Section -->
+    <section id="research" class="section">
+        <div class="container">
+            <h2 class="section-title">Expériences & <span>Projets</span></h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-panel">
+                    <div class="project-content">
+                        <span class="project-tag">Stage R&D (2026)</span>
+                        <h3>Propagation de faisceaux gaussiens</h3>
+                        <p><strong>CAILABS, Rennes</strong> : Étude de la propagation de faisceaux gaussiens dans l'atmosphère. Appropriation et implémentation de simulations basées sur des modèles physiques issus de la littérature scientifique.</p>
+                        <div class="tech-stack">
+                            <span>Optique</span>
+                            <span>Simulation</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card glass-panel">
+                    <div class="project-content">
+                        <span class="project-tag">Stage Recherche (2025)</span>
+                        <h3>Graphes Optiques Fibrés</h3>
+                        <p><strong>LMOPS, Metz</strong> : Analyse expérimentale et théorique des propriétés spectrales, dynamiques et de polarisation de graphes fibrés passifs ou actifs (lasers à graphe). Simulations d'analyse de spectres de résonance.</p>
+                        <div class="tech-stack">
+                            <span>Matlab</span>
+                            <span>Photonique</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card glass-panel">
+                    <div class="project-content">
+                        <span class="project-tag">Projet (2024-2025)</span>
+                        <h3>Instrumentation Scientifique</h3>
+                        <p>Conception et automatisation de systèmes d'acquisition de données pour des équipements de mesure scientifique, facilitant le contrôle et l'analyse des expériences.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>PyVisa</span>
+                            <span>NI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Mes <span>Compétences</span></h2>
+            <div class="skills-grid">
+                <div class="skill-category glass-panel">
+                    <h3><i class="fa-solid fa-satellite-dish"></i> Télécoms & Optique</h3>
+                    <ul>
+                        <li>Transmission OTN & WDM</li>
+                        <li>Systèmes de communication optiques</li>
+                        <li>Fibres optiques & Photonique</li>
+                        <li>Physique quantique & Électromagnétisme</li>
+                    </ul>
+                </div>
+                <div class="skill-category glass-panel">
+                    <h3><i class="fa-solid fa-terminal"></i> Programmation</h3>
+                    <ul>
+                        <li>Python (5+ années d'expérience)</li>
+                        <li>C / C++</li>
+                        <li>Matlab</li>
+                        <li>Java</li>
+                    </ul>
+                </div>
+                <div class="skill-category glass-panel">
+                    <h3><i class="fa-solid fa-toolbox"></i> Outils & Technologies</h3>
+                    <ul>
+                        <li>Zemax & Mathematica</li>
+                        <li>Git / GitHub</li>
+                        <li>Intelligence Artificielle</li>
+                        <li>Automatisation & PyVisa</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Me <span>Contacter</span></h2>
+            <div class="contact-wrapper glass-panel">
+                <div class="contact-info">
+                    <p>Basé à Rennes, France. N'hésitez pas à me contacter pour toute opportunité professionnelle ou question sur mon parcours.</p>
+                    <p style="margin-top: 1rem;"><i class="fa-solid fa-envelope"></i> aetabdoucisse@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +33 7 49 22 7718</p>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/abdou-cissé-076704246/" aria-label="LinkedIn" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="mailto:aetabdoucisse@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Votre e-mail" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" placeholder="Votre message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Abdou CISSE. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
